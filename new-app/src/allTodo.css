@@ -1,0 +1,58 @@
+body {
+  background-color: #000;
+}
+#root {
+  background-color: #000;
+}
+.App {
+  text-align: center;
+  background-color: #5A96FF;
+  border-radius: 10px;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
+.add {
+  margin-right: 10px;
+  background-color: #128800;
+  color: #fff;
+  border-radius: 200px;
+}
+.remove {
+  background-color: #FF2B18;
+  color: #fff;
+  border-radius: 200px;
+}
+textarea {
+  resize: none;
+  width: 90%;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: auto auto;
+  background-color: #EAE4FF;
+}
+.save {
+  background-color: #128800;
+  color: #fff;
+  border-radius: 100px;
+  width: 200px;
+}
+.addNew {
+  background-color:#02009D;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.save:hover {
+  background-color:rgb(0, 157, 105);
+}
+.remove:hover {
+  background-color:rgb(157, 0, 79);
+}
+.addNew:hover {
+  background-color:rgb(0, 139, 157);
+}
+.add:hover {
+  background-color:rgb(157, 0, 0);
+}
